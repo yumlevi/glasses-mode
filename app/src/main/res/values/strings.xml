@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Glasses Mode</string>
+    <string name="a11y_description">Double-tap either volume button while your AR glasses are plugged in to lock landscape and turn off the phone\'s own screen and touch. Only the volume keys are watched, and only while glasses are connected.</string>
+</resources>

@@ -1,0 +1,26 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.esfle.glassesmode'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.esfle.glassesmode'
+        minSdk 34
+        targetSdk 36
+        versionCode 4
+        versionName '0.4'
+    }
+
+    buildFeatures { buildConfig true }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    // Lets the app use the hidden "built-in screen only" flag on its own black layer.
+    implementation 'org.lsposed.hiddenapibypass:hiddenapibypass:6.1'
+}
